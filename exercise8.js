@@ -13,3 +13,4 @@ function studentGrade(score, isfinalExam=false){
     }
 }
 console.log(studentGrade(100, true))
+console.log(studentGrade(88))
