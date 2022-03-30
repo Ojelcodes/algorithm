@@ -3,12 +3,3 @@ function areaTriangle(base, height){
     console.log(Area)
 }
 areaTriangle(5, 6);
-
-
-
-
-// function areaTriangle(base, height){
-//     var Area = (base/2)*height
-//     return Area
-// }
-// console.log(areaTriangle(5, 6))

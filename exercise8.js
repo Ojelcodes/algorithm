@@ -1,6 +1,6 @@
 // The student will get A+ grade if the total marks are in the range 89..100 inclusive,
 // if the examination is "Final-exam." the student will get A+ grade and total marks must be greater than or equal to 90.
-// Return true if the student get A+ grade or false otherwise. 
+// Return true if the student get A+ grade or false otherwise.
 
 function studentGrade(score, isfinalExam=false){
     // let grade=score;
