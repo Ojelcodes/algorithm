@@ -4,9 +4,9 @@
 
 function studentGrade(score, isfinalExam=false){
     let grade=score;
-    if (score>=90 && finalExam==true) {
+    if (score>=90 && isfinalExam==true) {
        return true
-    } else if (score>=89 && finalExam==false) {
+    } else if (score>=89 && isfinalExam==false) {
         return true
     } else {
        return false
