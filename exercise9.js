@@ -21,4 +21,5 @@ function countVowels(a){
     }
     return count;
 }
-console.log(countVowels("rhym"));
+// console.log(countVowels("rhym"));
+console.log([0,200,3].indexOf(1));
