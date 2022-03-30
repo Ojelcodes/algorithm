@@ -3,7 +3,7 @@
 // Return true if the student get A+ grade or false otherwise. 
 
 function studentGrade(score, isfinalExam=false){
-    let grade=score;
+    // let grade=score;
     if (score>=90 && isfinalExam==true) {
        return true
     } else if (score>=89 && isfinalExam==false) {
