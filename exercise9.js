@@ -21,3 +21,4 @@ function countVowels(a){
     }
     return count;
 }
+console.log(countVowels("hello"));
