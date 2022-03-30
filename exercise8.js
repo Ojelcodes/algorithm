@@ -2,11 +2,11 @@
 // if the examination is "Final-exam." the student will get A+ grade and total marks must be greater than or equal to 90.
 // Return true if the student get A+ grade or false otherwise. 
 
-function studentGrade(a, finalExam=false){
-    let grade=a;
-    if (a>=90 && finalExam==true) {
+function studentGrade(score, isfinalExam=false){
+    let grade=score;
+    if (score>=90 && finalExam==true) {
        return true
-    } else if (a>=89 && finalExam==false) {
+    } else if (score>=89 && finalExam==false) {
         return true
     } else {
        return false
